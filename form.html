@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Register</h1> 
+
+    <form action="register" method="post">
+      
+            <label for="firstname">First Name:</label>
+            <input id="firstname" name="firstname" type="firstname" required>
+      
+      <br>
+      
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" name="lastname" type="lastname" required>
+     
+       <br>
+                   <label for="male">Male </label>
+            <input id="male" name="gender" type="radio" value="male">
+    
+            <label for="female">Female </label>
+            <input id="female" name="gender" type="radio" value="female">
+    
+            <label for="other">Other </label>
+            <input id="other" name="gender" type="radio" value="other">
+        <br>
+      
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required>
+          
+            <label for="password">Password:</label> 
+            <input  id="password" name="password"  type="password" minlength="5" maxlength="10"
+         required>
+      
+        <br>
+          
+           <label for="termsAndConditions">Do you accept our Terms and Conditions? </label>
+            <input id="termsAndConditions" type="checkbox" name="termsAndConditions" value="accepted">
+      
+        <br>
+      
+            <input type="submit" value="Submit">
+          
+        </form>
+        
+        
+
+    
+</body>
+</html>
