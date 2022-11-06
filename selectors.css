@@ -2,9 +2,6 @@ body {
     background-color: #bdc3c7;
   }
   
-  div {
-    background-color: rgba(150, 150, 150, 0.8);
-  }
   
   h1 {
     color: #9b59b6;
@@ -14,12 +11,12 @@ body {
     color:orange;
   }
 
-  li{
-    color:rgb(63, 105, 183);
-  }
-
   p {
     background-color:yellow;
+  }
+
+  li{
+    color:rgb(63, 105, 183);
   }
 
   input{
@@ -45,35 +42,37 @@ body {
     background-color:gray;
   }
 
-  div:nth-child(3) p{
+  div:nth-of-type(3) p{
     background-color: pink;
 }
 
-  div:nth-child(3) p:nth-child(2){
+  div:nth-of-type(3) p:nth-child(2) {
     border-color: white;
     border-width: 5px;
 }
 
-  div:nth-child(3) em{
+  div:nth-of-type(3) em{
     color: white;
     font-size: 20px;
 }
 
+  input[type=checkbox]:checked {
+    margin-left:50px;
+  }
 
+#special::first-letter{
+  color:green;
+  font-size:100px;
+}
 
-/*BONUS CHALLENGES*/
-/*You may need to research some other selectors and properties*/
+a:visited{
+  color:gray
+}
 
-/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
+h1:hover{
+  color:blue;
+}
 
-
-/* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
-
-
-/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-
-
-/*Make the <h1> element's color change to blue when hovered over */
-
-
-/*Make the <a> element's that have been visited gray */
+label {
+  text-transform:uppercase;
+}
