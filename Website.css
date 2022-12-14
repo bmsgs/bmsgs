@@ -6,3 +6,16 @@ body {
 nav {
     background-color:#2e2e2f;
 }
+
+#sidebar {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+padding: 58px 0 0; /* Height of navbar */
+width: 240px;
+z-index: 600;
+}
+
+ul {list-style-type: none;;
+}
