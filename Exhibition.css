@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .header {
     background-color: #2e2e2f;
     color: #fcfeff;
+    font-family: Montserrat, sans-serif ;
 }
 
 .black-border {
-    border: 1px solid black;
     padding: 1rem;
     margin: 0.25rem;
 }
