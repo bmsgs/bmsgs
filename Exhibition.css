@@ -11,7 +11,7 @@
   font-family: Montserrat, sans-serif ;
   font-size: 12px;
   padding-top: 14rem;
-  padding-botton: 4rem;
+  padding-bottom: 4rem;
 }
 
 .container {  
@@ -33,7 +33,13 @@
   color: #fcfeff;}
   
 .nav-item a:hover{
-  color: #FFC007;}
+  color: #FFC007;
+  
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;
+    transform: scale(1.35);
+}
+
 
 .item {
     padding: 1rem;
