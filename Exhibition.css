@@ -10,7 +10,7 @@
   color: #fcfeff;
   font-family: Montserrat, sans-serif ;
   font-size: 12px;
-  padding-top: 14rem;
+  padding-top: 10rem;
   padding-bottom: 4rem;
 }
 
@@ -35,9 +35,9 @@
 .nav-item a:hover{
   color: #FFC007;
   
-  transition: transform .4s; /* Animation */
+  transition: transform .2s; /* Animation */
   margin: 0 auto;
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
 
 
