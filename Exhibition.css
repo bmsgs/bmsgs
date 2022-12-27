@@ -1,12 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .header {
-    background-color: #2e2e2f;
+  background-image: url("https://images.unsplash.com/photo-1508968419-73cca394e8aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"); 
+  background-color: #2e2e2f;
     color: #fcfeff;
-    font-family: Montserrat, sans-serif ;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    padding-top: 14rem;
+    padding-bottom: 4rem;
 }
 
-.black-border {
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1508968419-73cca394e8aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-color: #2e2e2f; 
+  height: 500px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcfeff;
+  font-family: Montserrat, sans-serif ;
+  font-size: 12px;
+  padding-top: 14rem;
+  padding-bottom: 2rem;
+}
+
+.container {  
+    font-family: Montserrat, sans-serif;
+    font-size:14px;
+}
+
+.portfolio{
+  padding-top: 6rem;
+}
+.project {
+      border-color: #2e2e2f;
+      border-width: 1rem;
+      border-style: solid;
+      padding: 1rem;
+}
+
+.nav-item {
+  color: #fcfeff;}
+  
+.item {
     padding: 1rem;
     margin: 0.25rem;
 }
