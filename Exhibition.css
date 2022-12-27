@@ -1,19 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.header {
-  background-image: url("https://images.unsplash.com/photo-1508968419-73cca394e8aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"); 
-  background-color: #2e2e2f;
-    color: #fcfeff;
-    font-family: Montserrat, sans-serif;
-    font-size: 12px;
-    padding-top: 14rem;
-    padding-bottom: 4rem;
-}
-
 .hero-image {
-  background-image: url("https://images.unsplash.com/photo-1508968419-73cca394e8aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-image: linear-gradient(130deg, #2e2e2f, 
+#4f4f59);
   background-color: #2e2e2f; 
-  height: 500px; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +11,7 @@
   font-family: Montserrat, sans-serif ;
   font-size: 12px;
   padding-top: 14rem;
-  padding-bottom: 2rem;
+  padding-botton: 4rem;
 }
 
 .container {  
@@ -39,9 +29,12 @@
       padding: 1rem;
 }
 
-.nav-item {
+.nav-item a{
   color: #fcfeff;}
   
+.nav-item a:hover{
+  color: #FFC007;}
+
 .item {
     padding: 1rem;
     margin: 0.25rem;
