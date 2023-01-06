@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
 .hero-image {
   background-image: linear-gradient(130deg, #2e2e2f, 
 #4f4f59);
@@ -9,10 +10,12 @@
   background-size: cover;
   color: #fcfeff;
   font-family: Montserrat, sans-serif ;
-  font-size: 12px;
-  padding-top: 10rem;
-  padding-bottom: 4rem;
+  font-size: 1vw;
+  padding-top: 9vw;
+  padding-bottom: 4vw;
 }
+
+
 
 .container {  
     font-family: Montserrat, sans-serif;
@@ -24,15 +27,15 @@
 }
 .project {
       border-color: #2e2e2f;
-      border-width: 1rem;
+      border-width: 1vw;
       border-style: solid;
       padding: 1rem;
 }
 
-.nav-item a{
+.nav-link a{
   color: #fcfeff;}
   
-.nav-item a:hover{
+.nav-link a:hover{
   color: #FFC007;
   
   transition: transform .2s; /* Animation */
@@ -42,6 +45,11 @@
 
 
 .item {
+    padding: 1rem;
+    margin: 0.25rem;
+}
+
+.img {
     padding: 1rem;
     margin: 0.25rem;
 }
